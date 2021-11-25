@@ -1,5 +1,8 @@
 from keyboardControl import *
 
+"""
+#Misc Functions
+
 def select_ppsspp():
     hold(key.leftwin)
     press(key.num2)
@@ -34,7 +37,10 @@ def selectNetWork():
     press(key.s)
     press(key.s)
     press(key.k)
+"""
 
+
+# Wavu n times
 def wavu_wavu(n):
     combo([key.d])
     sleep(.05)
@@ -46,6 +52,8 @@ def wavu_wavu(n):
         combo([key.d])
         sleep(.04)
 
+
+# Wavu n times then JFSR
 def wavu_jfsr(n):
     combo([key.d])
     sleep(.05)
@@ -60,7 +68,7 @@ def wavu_jfsr(n):
     sleep(.04)
     combo([key.s, key.d, key.l])
 
-select_ppsspp()
+#select_ppsspp()
 #loadMenu()
 #selectPractise()
 #sleep(5)
